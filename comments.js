@@ -9,6 +9,7 @@ const express = require('express');
 const router = express.Router();
 const Comment = require('../models/Comment');
 
+
 // 1. Get all comments
 router.get('/', async (req, res) => {
   try {
